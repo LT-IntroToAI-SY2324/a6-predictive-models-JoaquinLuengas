@@ -4,13 +4,20 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 data = pd.read_csv("part1-linear-regression/blood_pressure_data.csv")
-x = data["Age"].values
-y = data["Blood Pressure"].values
+x = data["Age"]#.values
+y = data["Blood Pressure"]#.values
 
 # Use reshape to turn the x values into 2D arrays:
-x = x.reshape(-1,1)
+#x = x.reshape(-1,1)
 
 # Create the model
+
+plt.figure(figsize=(6,4))
+plt.scatter(x,y)
+plt.xlabel("Age")
+plt.ylabel("Blood Pressure")
+plt.title("Age Vs Blood Pressure")
+plt.show()
 
 # Find the coefficient, bias, and r squared values. 
 # Each should be a float and rounded to two decimal places. 
