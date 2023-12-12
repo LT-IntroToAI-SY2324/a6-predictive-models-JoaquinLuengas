@@ -54,4 +54,4 @@ for index in range(len(x_test)):
     else:
         actual = "1"
     print("Predicted Purchaces: " + y_pred + " Actual Purchaces: " + actual)
-    print("")
+    print("") 
