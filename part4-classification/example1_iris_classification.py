@@ -55,5 +55,5 @@ for index in range(len(x_test)):
 flower = [[5, 2.3, 3.3, 1]]
 #Reshape to a numpy array
 flower_scaled = scaler.transform(flower)
-myPredictions = model.predict(flower)
+myPredictions = model.predict(flower_scaled)
 print(myPredictions)

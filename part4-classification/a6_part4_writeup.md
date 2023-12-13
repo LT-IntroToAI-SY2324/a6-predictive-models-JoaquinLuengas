@@ -14,4 +14,5 @@ I think that the model with the standardscaler is mostly accurate, and is accura
 The model did good but coud have done better. Most of the predicted values were 0, wtih many of the acual values being one and vice versa, leading to many inaccuracies with the actual and predicted values. However, about half of the predicted values lined up with the actual values.
 
 4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model.
+A 34 year old female that has an annual salary of 56000 would not buy an SUV according to the model.
 

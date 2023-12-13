@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn import linear_model
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -56,8 +57,8 @@ for index in range(len(x_test)):
     print("Predicted Purchaces: " + y_pred + " Actual Purchaces: " + actual)
     print("") 
 
-age_sal = [[34, 56000, 1]]
+purr = [[34, 56000, 1]]
 #Reshape to a numpy array
-age_sal_scaled = scaler.transform(age_sal)
-myPredictions = model.predict(age_sal)
+purr_scaled = scaler.transform(purr)
+myPredictions = model.predict(purr_scaled)
 print(myPredictions)
