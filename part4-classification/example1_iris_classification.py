@@ -51,3 +51,9 @@ for index in range(len(x_test)):
         actual = "Iris-versicolor"
     print("Predicted Species: " + y_pred + " Actual Species: " + actual)
     print("")
+
+flower = [[5, 2.3, 3.3, 1]]
+#Reshape to a numpy array
+flower_scaled = scaler.transform(flower)
+myPredictions = model.predict(flower)
+print(myPredictions)
