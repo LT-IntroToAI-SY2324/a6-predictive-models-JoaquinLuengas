@@ -61,4 +61,4 @@ purr = [[34, 56000, 1]]
 #Reshape to a numpy array
 purr_scaled = scaler.transform(purr)
 myPredictions = model.predict(purr_scaled)
-print(myPredictions)
+print(myPredictions) 
