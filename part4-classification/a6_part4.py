@@ -55,3 +55,9 @@ for index in range(len(x_test)):
         actual = "1"
     print("Predicted Purchaces: " + y_pred + " Actual Purchaces: " + actual)
     print("") 
+
+age_sal = [[34, 56000, 1]]
+#Reshape to a numpy array
+age_sal_scaled = scaler.transform(age_sal)
+myPredictions = model.predict(age_sal)
+print(myPredictions)
