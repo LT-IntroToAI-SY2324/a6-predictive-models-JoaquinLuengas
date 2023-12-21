@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
 data = pd.read_csv("final-project/cta_data.csv")
-x = data[["Bus Rides", "Train Rides"]].values
+x = data[["Bus Rides", "Total Rides"]].values
 
 x_std = StandardScaler().fit_transform(x)
 
@@ -24,5 +24,5 @@ for i in range(k):
 plt.scatter(centroids[:, 0], centroids[:, 1], marker = 'X', s = 100, c = 'r', label = "centroid")
 
 plt.xlabel("Bus Rides")
-plt.ylabel("Train Rides")
+plt.ylabel("Total Rides")
 plt.show()

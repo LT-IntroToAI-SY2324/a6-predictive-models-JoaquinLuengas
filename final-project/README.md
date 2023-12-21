@@ -15,3 +15,8 @@ Throughout this module, you have learned how to program both supervised and unsu
 - A summary of the accuracy of your model
 - Real world implications
 
+I chose the grouping algorithm because I wanted to see if more people took the train or bus using the amount of time that either were used in total in the span of six months.
+
+I could not get my model to produce anything due to an error that I am not sure what was wrong with it but I think that it had something to do with the variable names.
+
+I made this model to be as accurate as possible to the amount of rides that people take on the CTA every day for the first six months of this year. The number of rides is decently high as people are starting to use public transport in the years after the COVID-19 pandemic and lockdown, you also do not have to worry about gas prices, making more people use CTA transport.
